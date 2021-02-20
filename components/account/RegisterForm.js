@@ -29,7 +29,7 @@ export default function RegisterForm() {
                 placeholder="Confirma tu Contraseña..."
                 containerStyle={styles.input}
                 password={true}
-                secureTextEntry={true}
+                secureTextEntry={!showPassword}
                 rightIcon={
                     <Icon
                         type="material-community"

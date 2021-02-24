@@ -30,7 +30,7 @@ export default function UserLogged() {
                             setLoading={setLoading} 
                             setLoadingText={setLoadingText}
                         />
-                        <Text>Accont Options</Text>
+                        <Text>Account Options</Text>
                     </View>
                 )
             }
